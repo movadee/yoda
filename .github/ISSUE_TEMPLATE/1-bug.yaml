@@ -7,7 +7,7 @@ body:
     attributes:
       label: Source of the bug
       options:
-        - (build) build system or external dependencies
+        - (build) build system or dependencies
         - (ci) CI configs
         - (docs) documentation
         - (fix) functionality
