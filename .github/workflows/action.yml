@@ -1,0 +1,14 @@
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Add issue to a project in the same repository
+      uses: cb80/add2project@latest
+      with:
+        project: testproj
+        column: Title
